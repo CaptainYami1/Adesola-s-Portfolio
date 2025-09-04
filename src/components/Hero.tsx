@@ -3,6 +3,9 @@ import { Github, Linkedin, Mail, MapPin, ArrowDown } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
+let today = new Date();
+const CurrentExperienceYear = today.getFullYear() - 2023;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
@@ -35,7 +38,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            2+ years of crafting beautiful, responsive web applications with React.js, 
+            {CurrentExperienceYear}+ years of crafting beautiful, responsive web applications with React.js, 
             JavaScript, and modern development tools. Passionate about creating exceptional user experiences.
           </p>
 
