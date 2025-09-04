@@ -17,7 +17,7 @@ const Projects = () => {
         "Reusable component architecture"
       ],
       technologies: ["React.js", "Context API", "React Router", "Tailwind CSS", "Local Storage"],
-      githubUrl: "https://github.com/CaptainYami1/react-ecommerce-store",
+      githubUrl: "https://github.com/CaptainYami1/ecommerce",
       status: "Completed"
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       ],
       technologies: ["React.js", "JavaScript", "Responsive Design", "Form Validation", "SEO"],
       liveUrl: "https://relianceimperial.co.uk",
-      status: "Live Production"
+      status: "Completed"
     },
     {
       title: "Fintech Dashboard (Mecator)",
