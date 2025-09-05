@@ -11,6 +11,7 @@ import {
   Send,
 } from "lucide-react";
 
+
 const Contact = () => {
   const contactMethods = [
     {
@@ -214,7 +215,7 @@ const Contact = () => {
                     className="flex-1 bg-white text-primary flex-row hover:bg-white/10"
                   >
                     <a
-                      href="../../public/ADESOLA SOLARIN resume July 2025.pdf"
+                      href="../../public/Adesola-Solarin-CV.pdf"
                       download="Adesola-Solarin-CV.pdf"
                     >
                       <Download className="h-4 w-4 mr-2" />
