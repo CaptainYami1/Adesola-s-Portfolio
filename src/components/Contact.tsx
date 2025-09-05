@@ -215,7 +215,7 @@ const Contact = () => {
                     className="flex-1 bg-white text-primary flex-row hover:bg-white/10"
                   >
                     <a
-                      href="../../public/Adesola-Solarin-CV.pdf"
+                      href="/Adesola-Solarin-CV.pdf"
                       download="Adesola-Solarin-CV.pdf"
                     >
                       <Download className="h-4 w-4 mr-2" />
