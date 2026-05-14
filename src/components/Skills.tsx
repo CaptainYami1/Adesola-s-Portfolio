@@ -9,8 +9,8 @@ const Skills = () => {
       color: "bg-blue-500/10 text-blue-700 border-blue-200"
     },
     {
-      title: "Frameworks & Libraries", 
-      skills: ["React.js", "Redux", "Redux Toolkit", "React Router"],
+      title: "Frameworks & Libraries",
+      skills: ["React.js", "React Native", "C# ASP.NET Core", "Redux", "Redux Toolkit", "React Router"],
       color: "bg-purple-500/10 text-purple-700 border-purple-200"
     },
     {
@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "GitHub", "VS Code", "Figma", "Postman", "Chrome DevTools"],
+      skills: ["Git", "GitHub", "VS Code", "Figma (Design-to-Code)", "Postman", "Chrome DevTools"],
       color: "bg-orange-500/10 text-orange-700 border-orange-200"
     },
     {
@@ -68,8 +68,8 @@ const Skills = () => {
                     <h4 className="font-semibold mb-4 text-foreground text-lg">{category.title}</h4>
                     <div className="flex flex-wrap gap-2">
                       {category.skills.map((skill) => (
-                        <Badge 
-                          key={skill} 
+                        <Badge
+                          key={skill}
                           variant="outline"
                           className="px-3 py-1 hover:scale-105 transition-transform cursor-default"
                         >
@@ -96,7 +96,7 @@ const Skills = () => {
                         <span className="text-sm text-muted-foreground">{item.level}%</span>
                       </div>
                       <div className="w-full bg-muted rounded-full h-2">
-                        <div 
+                        <div
                           className="h-2 bg-gradient-primary rounded-full transition-all duration-1000 ease-out"
                           style={{ width: `${item.level}%` }}
                         />
@@ -112,8 +112,8 @@ const Skills = () => {
               <CardContent className="p-8 text-center">
                 <h4 className="text-xl font-semibold mb-4">Always Learning</h4>
                 <p className="leading-relaxed opacity-90">
-                  Continuously expanding my skill set through online courses, 
-                  bootcamps, and hands-on projects. Currently exploring advanced React patterns 
+                  Continuously expanding my skill set through online courses,
+                  bootcamps, and hands-on projects. Currently exploring advanced React patterns
                   and modern animation libraries.
                 </p>
               </CardContent>

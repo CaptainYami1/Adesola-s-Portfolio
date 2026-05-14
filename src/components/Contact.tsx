@@ -24,7 +24,7 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+234 9063 2686 09",
+      value: "+234 906 326 8609",
       href: "tel:+2349063268609",
     },
     {
@@ -86,18 +86,16 @@ const Contact = () => {
                 {contactMethods.map((method, index) => (
                   <Card
                     key={index}
-                    className={`group hover:shadow-elegant transition-smooth shadow-card border-0 bg-card/50 backdrop-blur-sm ${
-                      method.primary ? "ring-2 ring-primary/20" : ""
-                    }`}
+                    className={`group hover:shadow-elegant transition-smooth shadow-card border-0 bg-card/50 backdrop-blur-sm ${method.primary ? "ring-2 ring-primary/20" : ""
+                      }`}
                   >
                     <CardContent className="p-6">
                       <div className="flex items-start gap-4">
                         <div
-                          className={`w-10 h-10 rounded-lg flex items-center justify-center ${
-                            method.primary
+                          className={`w-10 h-10 rounded-lg flex items-center justify-center ${method.primary
                               ? "bg-gradient-primary text-white"
                               : "bg-muted"
-                          } group-hover:scale-110 transition-transform`}
+                            } group-hover:scale-110 transition-transform`}
                         >
                           <method.icon className="h-5 w-5" />
                         </div>

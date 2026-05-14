@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       icon: Smartphone,
-      title: "Responsive Design", 
+      title: "Responsive Design",
       description: "Creating seamless experiences across all devices and screen sizes"
     },
     {
@@ -39,15 +39,15 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm a passionate Front-End Engineer with over <strong className="text-foreground">2 years of hands-on experience</strong> 
-              designing, developing, and maintaining responsive web applications. My journey in web development 
+              I'm a passionate Front-End Engineer with over <strong className="text-foreground">2 years of hands-on experience</strong>
+              designing, developing, and maintaining responsive web applications. My journey in web development
               has been driven by a love for creating intuitive, user-friendly interfaces that deliver exceptional experiences.
             </p>
-            
+
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Currently working with fintech solutions at <strong className="text-foreground">Mecator</strong>, 
-              I specialize in building scalable React.js applications with modern tools and best practices. 
-              I'm passionate about clean code architecture, performance optimization, and staying current with 
+              Currently working with fintech solutions at <strong className="text-foreground">Mercator</strong>,
+              I specialize in building scalable React.js applications with modern tools and best practices.
+              I'm passionate about clean code architecture, performance optimization, and staying current with
               emerging technologies.
             </p>
 
@@ -55,8 +55,8 @@ const About = () => {
               <h3 className="text-xl font-semibold text-foreground">What I bring to the table:</h3>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "React.js & Redux", "TypeScript", "Tailwind CSS", "RESTful APIs", 
-                  "Responsive Design", "Agile/Scrum", "Git & GitHub", "Performance Optimization"
+                  "React.js & Redux", "C# ASP.NET Core", "React Native", "TypeScript", "Tailwind CSS", "RESTful APIs",
+                  "Responsive Design", "Agile/Scrum", "Git & GitHub", "Figma (Design-to-Code)"
                 ].map((skill) => (
                   <Badge key={skill} variant="secondary" className="px-3 py-1">
                     {skill}
@@ -65,8 +65,26 @@ const About = () => {
               </div>
             </div>
 
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-foreground">Education & Certifications:</h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">B.Sc in Accounting</strong> - Ajayi Crowther University (2023)
+                  <p className="text-sm mt-1">Leveraged accounting background to build strong analytical and problem-solving foundations, directly applicable to complex front-end logic.</p>
+                </li>
+                <li>
+                  <strong className="text-foreground">Meta Front-End Developer Specialization</strong> - Coursera (2024-2025)
+                  <p className="text-sm mt-1">React Basics, Advanced Patterns, UI State Management</p>
+                </li>
+                <li>
+                  <strong className="text-foreground">Front-End Development Bootcamp</strong> - Udemy (2023-2024)
+                  <p className="text-sm mt-1">HTML, CSS, JavaScript, Responsive Design, UI/UX Best Practices</p>
+                </li>
+              </ul>
+            </div>
+
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm actively seeking opportunities with forward-thinking engineering teams, 
+              I'm actively seeking opportunities with forward-thinking engineering teams,
               including international and remote-first environments. Let's build something amazing together!
             </p>
           </div>
