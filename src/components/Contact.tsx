@@ -93,8 +93,8 @@ const Contact = () => {
                       <div className="flex items-start gap-4">
                         <div
                           className={`w-10 h-10 rounded-lg flex items-center justify-center ${method.primary
-                              ? "bg-gradient-primary text-white"
-                              : "bg-muted"
+                            ? "bg-gradient-primary text-white"
+                            : "bg-muted"
                             } group-hover:scale-110 transition-transform`}
                         >
                           <method.icon className="h-5 w-5" />
@@ -213,8 +213,8 @@ const Contact = () => {
                     className="flex-1 bg-white text-primary flex-row hover:bg-white/10"
                   >
                     <a
-                      href="/Adesola-Solarin-CV.pdf"
-                      download="Adesola-Solarin-CV.pdf"
+                      href="/Adesola_Solarin_CV.pdf"
+                      download="Adesola_Solarin_CV.pdf"
                     >
                       <Download className="h-4 w-4 mr-2" />
                       Download CV
