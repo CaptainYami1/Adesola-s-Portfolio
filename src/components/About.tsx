@@ -3,6 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { Code, Globe, Smartphone, Users } from "lucide-react";
 
 const About = () => {
+  let today = new Date();
+  const CurrentExperienceYear = today.getFullYear() - 2023;
   const highlights = [
     {
       icon: Code,
@@ -39,7 +41,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm a passionate Front-End Engineer with over <strong className="text-foreground">2 years of hands-on experience</strong>
+              I'm a passionate Front-End Engineer with over <strong className="text-foreground">{CurrentExperienceYear} years of hands-on experience</strong>
               designing, developing, and maintaining responsive web applications. My journey in web development
               has been driven by a love for creating intuitive, user-friendly interfaces that deliver exceptional experiences.
             </p>
